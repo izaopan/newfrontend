@@ -2,9 +2,18 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-###  To make a docker image
-docker build . -t IMAGE_NAME
-docker run -p 8000:80 IMAGE_NAME
+###  Useful commands
+
+### `npm install`
+Install all dependencies 
+
+### `npm run build`
+To build deployeable html and js
+
+### `docker build . -t IMAGE_NAME`
+To build a docker image (need to have a static build in advance) 
+
+`docker run -p 8000:80 IMAGE_NAME`
 open http://localhost:8000/ in browser
 
 ### `npm start`
