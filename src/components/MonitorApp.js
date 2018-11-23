@@ -27,7 +27,6 @@ class MonitorApp extends React.Component {
     }
 
     searchWithFilter() {
-        debugger
         if (this.state.filterField !== undefined && this.state.filterValue !== undefined) {
             getVehicles(properties.url_filtered_query, {
                 field: this.state.filterField,
